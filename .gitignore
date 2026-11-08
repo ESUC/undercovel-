@@ -8,3 +8,7 @@ supabase/.temp
 supabase/.env.keys
 supabase/.env.local
 supabase/.env.*.local
+
+# .gitignore
+supabase/functions/.env
+.env.local
