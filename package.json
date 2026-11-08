@@ -1,21 +1,21 @@
 {
   "name": "undercovel-",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ESUC/undercovel-.git"
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.18.5"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/ESUC/undercovel-/issues"
-  },
-  "homepage": "https://github.com/ESUC/undercovel-#readme"
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "^8.3.6"
+  }
 }
